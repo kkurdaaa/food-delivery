@@ -1,16 +1,13 @@
 # finalpro
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Food delivery service is somewhat similar to courier service in which the ordered food is delivered from the restaurant to the customer either by the restaurant's staff or by delivery agents of a food ordering company. In this app we have Log in as home route then we also have sign up and forget password where you can reset your password via phone number. Also we have a lot of features listed below:
+1- Login<br />
+2- Sign Up<br />
+3- Forgot Password<br />
+4- OTP Verification<br />
+5- Complete Profile<br />
+6- Home Page<br />
+7- detail of foods<br />
+8- Ordering food<br />
+9- Editing profile<br />
+10- Navigation Bar<br />
