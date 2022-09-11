@@ -1,6 +1,7 @@
 # finalpro
+Food delivery service is somewhat similar to courier service in which the ordered food is delivered from the restaurant to the customer either by the restaurant's staff or by delivery agents of a food ordering company. In finalpro we have Log in as home route then we also have sign up and forget password where you can reset your password via phone number. Also we have a lot of features listed below:
 
-Food delivery service is somewhat similar to courier service in which the ordered food is delivered from the restaurant to the customer either by the restaurant's staff or by delivery agents of a food ordering company. In this app we have Log in as home route then we also have sign up and forget password where you can reset your password via phone number. Also we have a lot of features listed below:
+# Features
 1- Login<br />
 2- Sign Up<br />
 3- Forgot Password<br />
