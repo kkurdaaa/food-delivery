@@ -27,7 +27,7 @@ class Checkout extends StatefulWidget {
 class _Checkout extends State<Checkout> {
   var itemAddedToCart = false;
   LocationModel location = LocationModel(
-      title: '5C, Sunrise Apartments',
+      title: '5C, MRF Apartments',
       address: 'Erbil, Iraq',
       type: 'Other',
       selected: true);
@@ -250,7 +250,7 @@ class _Checkout extends State<Checkout> {
             Padding(
               padding: EdgeInsets.only(bottom: 5, left: 16, right: 20, top: 14),
               child: Text(
-                '₹' + widget.deliveryFee.toString(),
+                'IQD' + widget.deliveryFee.toString(),
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   fontSize: 14.0,
@@ -279,7 +279,7 @@ class _Checkout extends State<Checkout> {
             Padding(
               padding: EdgeInsets.only(bottom: 5, left: 16, right: 20, top: 14),
               child: Text(
-                '₹' + widget.tax.toString(),
+                'IQD' + widget.tax.toString(),
                 textAlign: TextAlign.start,
                 style: TextStyle(
                   fontSize: 14.0,
@@ -341,7 +341,7 @@ class _Checkout extends State<Checkout> {
                     padding:
                         EdgeInsets.only(bottom: 5, left: 48, right: 8, top: 0),
                     child: Text(
-                      '₹' + totalPay.toString(),
+                      'IQD' + totalPay.toString(),
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontSize: 18.0,
@@ -443,7 +443,7 @@ class _Checkout extends State<Checkout> {
                 padding:
                     EdgeInsets.only(bottom: 5, left: 48, right: 16, top: 0),
                 child: Text(
-                  '₹' + obj.price.toString(),
+                  'IQD' + obj.price.toString(),
                   textAlign: TextAlign.start,
                   style: TextStyle(
                     fontSize: 14.0,
@@ -456,7 +456,7 @@ class _Checkout extends State<Checkout> {
                 padding:
                     EdgeInsets.only(bottom: 5, left: 16, right: 20, top: 0),
                 child: Text(
-                  '₹' + (obj.price * obj.quantity).toString(),
+                  'IQD' + (obj.price * obj.quantity).toString(),
                   textAlign: TextAlign.start,
                   style: TextStyle(
                     fontSize: 14.0,

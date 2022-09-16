@@ -445,7 +445,7 @@ class _Menu extends State<Menu> {
                       padding: EdgeInsets.only(
                           bottom: 5, left: 16, right: 10, top: 0),
                       child: Text(
-                        '₹' + menuObj.price.toString(),
+                        'IQD' + menuObj.price.toString(),
                         textAlign: TextAlign.start,
                         style: TextStyle(
                           fontSize: 14.0,
